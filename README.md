@@ -1,0 +1,2 @@
+# ClickerThing
+ Click = gold
