@@ -6,6 +6,7 @@ public class GoldPress : MonoBehaviour {
 	public int costs = 100;
 	public float productionTime = 1f;
 	public Text goldAmountText;
+	public Text goldPressBuyLabel;
 	float elapsedTime;
 
 	public int GoldPressAmount {
@@ -25,6 +26,9 @@ public class GoldPress : MonoBehaviour {
 	}
 	
 	void Update() {
+		if (FindObjectOfType<Gold>().GoldAmount < costs) goldPressBuyLabel.color = Color.red;
+		else goldPressBuyLabel.color = Color.green;
+		
 		this.elapsedTime += Time.deltaTime;
 		if (this.elapsedTime >= this.productionTime) {
 			ProduceGold();

@@ -7,7 +7,8 @@ public class Gold : MonoBehaviour {
 
 	public int GoldAmount {
 		get => PlayerPrefs.GetInt("Gold", 1);
-		set {
+		set 
+		{
 			PlayerPrefs.SetInt("Gold", value);
 			UpdateGoldAmountLabel();
 		}
@@ -22,12 +23,19 @@ public class Gold : MonoBehaviour {
 	}
 	
 	void Update() {
-		if (Input.GetMouseButtonDown(0)) {
+		if (Input.GetKeyDown(KeyCode.W))
+		{
+			this.GoldAmount = 0;
+			FindObjectOfType<GoldPress>().GoldPressAmount = 0;
+		}
+		if (Input.GetMouseButtonDown(0)) 
+		{
 			ProduceGold();
 		}
 	}
 
-	public void ProduceGold() {
+	public void ProduceGold() 
+	{
 		this.GoldAmount += this.goldAmountPerClick; // this.goldAmount = this.goldAmount + goldAmountPerClick;
 	}
 }
