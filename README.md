@@ -1,2 +1,2 @@
-# ClickerThing
- Click = gold
+# IdleRPG
+ Idle RPG of Forsbergs class
