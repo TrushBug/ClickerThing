@@ -46,7 +46,7 @@ public class GoldPress : MonoBehaviour {
 		var gold = FindObjectOfType<Gold>();
 		if (gold.GoldAmount >= this.costs) {
 			gold.GoldAmount -= this.costs;
-			this.GoldPressAmount += 1;
+			this.GoldPressAmount++;
 		}
 	}
 }
