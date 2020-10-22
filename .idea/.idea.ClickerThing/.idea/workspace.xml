@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="836dd858-6c9d-45d8-81d8-ebaf48605f0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ClickerThing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClickerThing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gold.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gold.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GoldPress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GoldPress.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603280588493</updated>
-      <workItem from="1603280599531" duration="2087000" />
+      <workItem from="1603280599531" duration="2815000" />
     </task>
     <servers />
   </component>
